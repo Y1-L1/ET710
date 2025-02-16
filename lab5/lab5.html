@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 5, CSS</title>
+    <style type="text/css">
+        h1.title{ color: red; background-color: black; font-family: algerian;}
+        h1{text-align: center;}
+        p { color: yellow;}
+        p.info{color: gray; text-align: right; font-family: cambria; font-style: italic;}
+        body{background-color: lightblue;}
+        p.msg{font-family: "arial black";}
+        p#parag{font-weight: bolder; color: blue;}
+        .qcc2{font-size: 250%;}
+        .qcc3{font-size: 3rem;}
+        .name1, .name2, .name3, .name4, .name5, .name6{font-size: 50px; text-align: center;}
+        .name1{text-shadow: 10px 0px 5px red;}
+        .name2{text-shadow: 0px -10px 5px red;}
+        .name3{text-shadow: -10px 10px 5px red;}
+        .name4{text-shadow: 10px -10px 5px red;}
+        .name5{text-shadow: 10px -10px 20px red;}
+        .name6{text-shadow: 0px 0px 5px 3px red;}
+        .square1, .square2, .square3{height: 200px; width: 200px; background-color: black; color: aqua;}
+        .square1{border: yellow 30px groove; margin-left: 100px; padding-top: 50px;}
+        .square2{border: dotted 20px purple; margin: 50px 200px; padding: 20px;}
+        .square3{border: 30px inset lightcoral; margin: 20px auto; padding: 20px 50px;}
+        .cat1, .cat2, .cat3, .cat4{width: 300px; height: 200px; margin: 35px 50px;}
+        .cat1{border: red 20px double;}
+        .cat2{border: blue 35px dashed;}
+        .cat3{border: green 55px ridge;}
+        .cat4{border: black 70px outset;}
+        .labtitle{color: brown; background-color: aquamarine; font-family: cursive; text-shadow: 15px 0px 5px; text-align: center; font-size: 6rem;}
+        .description{font-family: 'Courier New', Courier, monospace; color: palevioletred; background-color: yellowgreen; font-size: 150%; padding: 100px;}
+        
+    </style>
+</head>
+<body> 
+    <h1>Cascading Style Sheet</h1>
+    <h1 class="title">Dogs</h1>
+    <p class="msg">The dog (Canis familiaris or Canis lupus familiaris) is a domesticated descendant of the gray wolf.</p>
+    <p class="info">Information retrieved from Wikipedia.org</p>
+    <p id="parag">Applying font weight</p>
+    <p class="qcc1">Queensborough Community College</p>
+    <p class="qcc2">Queensborough Community College</p>
+    <p class="qcc3">Queensborough Community College</p>
+    <h2>Text shadow</h2>
+    <p class="name1">Yi Li</p>
+    <p class="name2">Yi Li</p>
+    <p class="name3">Yi Li</p>
+    <p class="name4">Yi Li</p>
+    <p class="name5">Yi Li</p>
+    <p class="name6">Yi Li</p>
+    <h2>Border</h2>
+    <div class="square1">The dog (Canis familiaris or Canis lupus familiaris) is a domesticated descendant of the gray wolf.</div>
+    <div class="square2">The dog (Canis familiaris or Canis lupus familiaris) is a domesticated descendant of the gray wolf.</div>
+    <div class="square3">The dog (Canis familiaris or Canis lupus familiaris) is a domesticated descendant of the gray wolf.</div>
+    <hr>
+    <h1>Lab Exercise</h1>
+    <h1 class="labtitle">Cats</h1>
+    <p class="description">The cat (Felis catus), also referred to as the domestic cat, is a small domesticated carnivorous mammal. It is the only domesticated species of the family Felidae. Advances in archaeology and genetics have shown that the domestication of the cat occurred in the Near East around 7500 BC. It is commonly kept as a pet and farm cat, but also ranges freely as a feral cat avoiding human contact. It is valued by humans for companionship and its ability to kill vermin. Its retractable claws are adapted to killing small prey species such as mice and rats. It has a strong, flexible body, quick reflexes, and sharp teeth, and its night vision and sense of smell are well developed. It is a social species, but a solitary hunter and a crepuscular predator. Cat communication includes vocalizations—including meowing, purring, trilling, hissing, growling, and grunting—as well as body language. It can hear sounds too faint or too high in frequency for human ears, such as those made by small mammals. It secretes and perceives pheromones.</p>
+    <figure>
+        <img class="cat1" src="images/cat1.jpg" alt="image of cat 1">
+        <figcaption>image of a cat lying down</figcaption>
+        <img class="cat2" src="images/cat2.jpg" alt="image of cat 2">
+        <figcaption>image of a cat wearing a crown</figcaption>
+        <img class="cat3" src="images/cat3.jpg" alt="image of cat 3">
+        <figcaption>image of a cat wearing a bow tie</figcaption>
+        <img class="cat4" src="images/cat4.jpg" alt="image of cat 4">
+        <figcaption>image of a cat with crossed arms</figcaption>
+    </figure>
+</body>
+</html>
