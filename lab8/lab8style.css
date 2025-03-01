@@ -1,0 +1,241 @@
+.colorcontainer{
+    border: solid gray 1px;
+    height: 200px;
+}
+.rgb1, .rgb2, .rgb3, .rgb4{
+    width: 200px;
+    height: 200px;
+    border: ridge black 3px;
+    float: left;
+    margin-right: 10px;
+}
+.rgb1{
+    background-color: rgb(242,80,30);
+}
+.rgb2{
+    background-color: rgb(127,186,0);
+}
+.rgb3{
+    background-color: rgb(1,164,239);
+}
+.rgb4{
+    background-color: rgb(255,185,1);
+}
+.hex1, .hex2, .hex3{
+    width: 200px;
+    height: 200px;
+    border: ridge black 3px;
+    float: left;
+    margin-right: 10px;
+}
+.hex1{
+    background-color: #ad1457;
+}
+.hex2{
+    background-color: #78002e;
+}
+.hex3{
+    background-color: #10ab88;
+}
+img{width: 100%; display: block;}
+.imgcontainer{
+    width: 60%;
+    margin: 1em auto;
+    box-shadow: 1px 1px 5px gray;
+    position: relative;
+}
+.imgtitle{
+    position: absolute;
+    top: 40%;
+    bottom: 40%;
+    left: 20%;
+    right: 20%;
+    background-color: rgba(242,80,30,.7);
+    text-align: center;
+    font-size: 2em;
+    padding: 1em;
+}
+.topnav{
+    background-color: #78002e;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    display: block;
+}
+.topnav a{
+    display: inline-block;
+    padding: 1em 3em;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color: aliceblue;
+    color: #78002e;
+}
+.mesh1, .mesh2, .mesh3{
+    width: 60%;
+    height: 200px;
+}
+.mesh1{
+    background-image: linear-gradient(#78002e,#10ab88);
+}
+.mesh2{
+    background-image: linear-gradient(to right,#78002e,#10ab88);
+}
+.mesh3{
+    background-image: linear-gradient(to top left,#78002e,#10ab88);
+}
+.heroinfo{
+    position: absolute;
+    top: 30%;
+    bottom: 30%;
+    left: 20%;
+    right: 20%;
+    text-align: center;
+    border: solid 1px gray;
+}
+.heroimage{
+    background-image: linear-gradient(to right, rgba(255,255,255,.6), rgba(255,0,0,.7)), url("images/tree.jpg");
+    background-size: 100% 100%;
+    height: 400px;
+    width: 700px;
+}
+.heroinfo a{
+    display: inline-block;
+    padding: .5em 2em;
+    background-color: #78002e;
+    color: whitesmoke;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.heroinfo a:hover{
+    background-color: red;
+}
+.sepia1{
+    filter: sepia(10%);
+}
+.sepia2{
+    filter: sepia(60%);
+}
+.sepia3{
+    filter: sepia(100%);
+}
+.blur1{
+    filter: blur(2px);
+}
+.blur2{
+    filter: blur(10px);
+}
+.blur3{
+    filter: blur(20px);
+}
+.invert1{
+    filter: invert(2%);
+}
+.invert2{
+    filter: invert(60%);
+}
+.invert3{
+    filter: invert(100%);
+}
+.sectioncontainer{
+    height: auto;
+}
+.container1, .container2, .container3{
+    width: 400px;
+    height: 600px;
+    display: inline-block;
+    margin: 2em;
+}
+.container1{
+    position: relative;
+}
+img{
+    height: 100%;
+}
+.container1 img{
+    filter: invert(60%);
+}
+.container2 img{
+    filter: blur(2px);
+}
+.imginfo1{
+    top: 65%;
+    bottom: 5%;
+    left: 10%;
+    right: 10%;
+    background-color: rgba(94, 105, 47, 0.7);
+    color: rgb(147, 171, 69);
+    font-size: 1.1em;
+    padding: .5em;
+    position: absolute;
+    border: solid ;
+}
+.imginfo1 h2{
+    color: aquamarine;
+}
+.container2{
+    position: relative;
+}
+.imginfo2{
+    top: 35%;
+    bottom: 30%;
+    left: 10%;
+    right: 10%;
+    border: solid;
+    position: absolute;
+    background-color: rgba(87, 143, 198, 0.6);
+    font-size: 1.1em;
+    color: rgb(197, 84, 174);
+    padding: .5em;
+    box-shadow: 10px 10px 10px rgb(194, 89, 93);
+}
+.imginfo2 h2{
+    color: #1493ad;
+}
+.imginfo2 a{
+    background-color: rgb(197, 83, 98);
+    color: #433b98;
+    padding: .5em;
+    text-decoration: none;
+}
+.imginfo2 a:hover{
+    background-color: #433b98;
+    color: #10ab88;
+}
+.container3{
+    position: relative;
+    background-image: linear-gradient(to top left, rgba(238, 107, 114, 0.6), rgba(60, 157, 236, 0.7)), url("images/Tokyo.jpg");
+    background-size: 100% 100%;
+    width: 400px;
+    height: 600px;
+}
+.imginfo3{
+    position: absolute;
+}
+.title{
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    font-size: 3em;
+    color: gold;
+}.p1{
+    padding: 1em;
+    color: blue;
+}
+.p2{
+    position: absolute;
+    left: 10px;
+    right: 200px;
+    top: 100px;
+    color: rgb(78, 196, 123);
+}
+.p3{
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    color: rgb(235, 85, 160);
+}
+.p1, .p2, .p3{
+    font-family: cursive;
+}
