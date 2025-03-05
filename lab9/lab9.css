@@ -1,0 +1,115 @@
+*{box-sizing: border-box;}
+.maincontainer{
+    border: solid gray 1px;
+    width: 90%;
+    height: 500px;
+    margin: 2em auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.card{
+    border-radius: 10px;
+    border: solid lightgray 1px;
+    width: 300px;
+    background-color: aquamarine;
+    padding: 1%;
+}
+.header{
+    width: 90%;
+    margin: 2em auto;
+    display: flex;
+    background-color: orangered;
+    align-items: center;
+}
+.headertitle{
+    text-align: center;
+    color: whitesmoke;
+    width: 40%;
+    font-size: 2em;
+}
+.navlinks{
+    width: 60%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.link{
+    display: inline-block;
+    padding: 1em 3em;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.link:hover{
+    background-color: aliceblue;
+    color: red;
+}
+.collapsemenu{
+    background-color: orangered;
+    font-size: 1.5em;
+    color: aliceblue;
+    display: none;
+}
+.footer{
+    background-color: lightcyan;
+    display: flex;
+    justify-content: center;
+}
+.customer, .myaccount, .follow{
+    width: 30%;
+    padding: 2em;
+}
+.footertitle{
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+.footerlist{
+    list-style: none;
+}
+.footerlist li{
+    padding: .5em 0em;
+    margin-left: -40px;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.socialmedia{
+    display: flex;
+}
+.socialmedia a{
+    display: inline-block;
+    width: 10%;
+    margin-right: 5%;
+}
+@media only screen and (max-width: 1400px){
+    .card{width: 40%;}
+    .cardtitle{text-align: center;}
+    .link{
+        padding: 1em 2em;
+        font-size: 1.1em;
+    }
+    .headertitle{font-size: 1.2em;}
+}
+@media only screen and (max-width: 800px){
+    .maincontainer{height: auto;}
+    .card{width: 90%; margin-bottom: 2em;}
+    .card:nth-child(1){margin-top: 2em;}
+    .headertitle{width: 90%; padding: 1em; font-size: 3em; border-bottom: solid 1px wheat;}
+    .header{flex-wrap: wrap;}
+    .navlinks{width: 100%; justify-content: center; border-top: solid wheat 1px;}
+    .footer{flex-wrap: wrap;}
+    .customer, .myaccount, .follow{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .navlinks{display: none;}
+    .collapsemenu{display: block; margin-left: auto; padding: 0em 1em;}
+    .customer, .myaccount, .follow{
+        width: 100%;
+    }
+    .cardtitle{font-size: 1em; overflow: hidden;}
+}
