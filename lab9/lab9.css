@@ -97,7 +97,7 @@ img{
     .maincontainer{height: auto;}
     .card{width: 90%; margin-bottom: 2em;}
     .card:nth-child(1){margin-top: 2em;}
-    .headertitle{width: 90%; padding: 1em; font-size: 3em; border-bottom: solid 1px wheat;}
+    .headertitle{width: 100%; padding: 1em; font-size: 3em; border-bottom: solid 1px wheat;}
     .header{flex-wrap: wrap;}
     .navlinks{width: 100%; justify-content: center; border-top: solid wheat 1px;}
     .footer{flex-wrap: wrap;}
@@ -111,5 +111,5 @@ img{
     .customer, .myaccount, .follow{
         width: 100%;
     }
-    .cardtitle{font-size: 1em; overflow: hidden;}
+    .cardtitle{font-size: 1.2em; overflow: hidden;}
 }
