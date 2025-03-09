@@ -1,34 +1,22 @@
 .headertitle{
     text-align: center;
     font-size: 2em;
-    background-color: aliceblue;
+    color: navy;
 }
 .navlinks{
     display: flex;
     justify-content: left;
     align-items: center;
-    background-color: rgb(28, 28, 142);
+    background-color: navy;
     padding: 1em;
-    
 }
 .link{
     color: white;
     margin: 0em 2em;
     text-decoration: none;
 }
-.headerinfo{
-    position: relative;
-}
-.headerinfo img{
-    width: 100%;
-    height: 300px;
-}
-.headerinfo p{
-    bottom: 5%;
-    left: 5%;
-    position: absolute;
-    font-size: 3em;
-    color: white;
+.link:hover{
+    text-decoration: underline;
 }
 .maincontainer{
     display: flex;
@@ -36,16 +24,32 @@
     flex-wrap: wrap;
     align-items: flex-start;
 }
+.mainimg{
+    position: relative;
+}
+.mainimg img{
+    width: 100%;
+    height: 300px;
+    filter: blur(2px);
+}
+.mainimg p{
+    bottom: 5%;
+    left: 5%;
+    position: absolute;
+    font-size: 3em;
+    color: white;
+}
 .cardsection{
     width: 70%;
     border: solid gray 1px;
-    margin: 2em;
+    margin: 1em;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
     border-radius: 12px;
     box-shadow: 0px 0px 5px 1px grey;
+    background-color: white;
 }
 .card img{
     width: 100%;
@@ -53,34 +57,52 @@
 }
 .card{
     border-radius: 12px;
-    border: solid lightgray 1px;
-    width: 300px;
-    background-color: lightgrey;
+    border: solid gray 1px;
+    width: 25%;
+    background-color: white;
     overflow: hidden;
-    margin: 2em;
+    margin: 2.5em 0em;
+    background-color: whitesmoke;
 }
 .cardinfo{
     padding: 1em;
-    color: darkolivegreen;
 }
 .card:hover{
-    box-shadow: 0px 0px 5px 1px darkgrey;
+    box-shadow: 0px 0px 5px 1px navy;
 }
 .card:hover .cardinfo{
-    color: coral;
+    color: navy;
+    text-decoration: underline;
 }
-
 .footer{
     text-align: center;
     color: grey;
 }
 .rightcolumn{
-    width: 25%;
+    width: 20%;
 }
 .columncard{
     border-radius: 12px;
     border: solid gray 1px;
     padding: 1em;
     box-shadow: 0px 0px 5px 1px grey;
-    margin: 2em;
+    margin: 1em 0em;
+    background-color: white;
+}
+.title{
+    color: navy;
+}
+@media only screen and (max-width: 1024px){
+    .cardsection{width: 65%;}
+    .rightcolumn{width: 25%;}
+    .card{width: 40%;}
+}
+@media only screen and (max-width: 600px){
+    .cardsection{width: 90%;}
+    .rightcolumn{width: 90%;}
+    .card{width: 70%;}
+    .navlinks{justify-content: center;}
+}
+body{
+    background-color: whitesmoke;
 }
