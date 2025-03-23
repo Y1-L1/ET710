@@ -15,3 +15,6 @@ img{
     text-decoration: none;
     color: black;
 }
+.highlights{
+    list-style: decimal;
+}
