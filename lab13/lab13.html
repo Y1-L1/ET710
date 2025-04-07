@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lab 13, Modal Window</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Modal Window</h1>
+    <main class="container">
+        <section class="card w-25 border border-3 border-warning">
+            <div class="card-header">Summer Vacation</div>
+            <p class="card-text p-3">Best summer vacation in the USA</p>
+            <div class="card-footer">
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalwindow">More info</button>
+            </div>
+        </section>
+
+        <section class="modal" id="modalwindow" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title">Best places to visit in the USA for 2025</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <ul>    
+                            <li><a href="https://travel.usnews.com/Glacier_National_Park_MT/" target="_blank" rel="noopener noreferrer">Glacier National Park</a></li>
+                            <li><a href="https://travel.usnews.com/Yellowstone_National_Park_WY/" target="_blank" rel="noopener noreferrer">Yellowstone National Park</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <hr>
+
+    <h1>Lab Exercise</h1>
+        <section class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-11 card bg-light m-3">
+                    <section class="card-body w-100">
+                        <img class="card-img h-50" src="images/catt1.jpg" alt="image of cats">
+                        <h2 class="card-title text-info">Cat</h2>
+                        <p class="card-text">The cat, also referred to as the domestic cat or house cat, is a small domesticated carnivorous mammal.</p>
+                        <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modalwindow1">Read More</button>
+                    </section>
+                </div>
+
+                <div class="modal" id="modalwindow1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title">Cat Breeds</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                            </div>
+        
+                            <div class="modal-body">
+                                <p class="modal-text">Cats are graceful, curious animals that have been beloved pets for thousands of years. Known for their independence, they enjoy both quiet solitude and playful moments. With their soft purrs and affectionate nature, cats bring comfort and joy to many homes.</p>
+                                <p class="modal-text">Want to know about different cat breeds? Please click on the picture below.</p>
+                                <div class="row">
+                                    <div class="col-5 m-1">
+                                        <a href="https://www.purina.com/cats/cat-breeds/american-shorthair" target="_blank" rel="noopener noreferrer"><img class="w-100 h-75" src="images/as.jpg" alt=""></a>
+                                        <caption>American Shorthair</caption>
+                                    </div>
+                                
+                                    <div class="col-5 m-1">
+                                        <a href="https://www.purina.co.uk/find-a-pet/cat-breeds/british-shorthair" target="_blank" rel="noopener noreferrer"><img class="w-100 h-75" src="images/bs.webp" alt=""></a>
+                                        <caption>British Shorthair</caption>
+                                    </div>
+                                </div>                              
+                            </div>
+        
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-11 card bg-light m-3">
+                    <section class="card-body w-100">
+                        <img class="card-img h-50" src="images/dogg.jpg" alt="image of dogs">
+                        <h2 class="card-title text-info">Dog</h2>
+                        <p class="card-text">The dog (Canis familiaris or Canis lupus familiaris) is a domesticated descendant of the gray wolf.</p>
+                        <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modalwindow2">Read More</button>
+                    </section>
+                </div>
+
+                <div class="modal" id="modalwindow2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title">Dog Breeds</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                            </div>
+        
+                            <div class="modal-body">
+                                <p class="modal-text">Dogs are loyal, friendly animals that have been close companions to humans for centuries. Known for their intelligence and playful spirit, they thrive on companionship and enjoy being part of a family. Whether protecting a home or playing in the yard, dogs bring energy, love, and joy to everyday life</p>
+                                <p class="modal-text">Want to know about different dog breeds? Please click on the picture below.</p>
+                                <div class="row">
+                                    <div class="col-5 m-1">
+                                        <a href="https://www.purina.com/dogs/dog-breeds/german-shepherd-dog" target="_blank" rel="noopener noreferrer"><img class="w-100 h-75" src="images/gs.jpg" alt=""></a>
+                                        <caption>German Shepherd</caption>
+                                    </div>
+                                
+                                    <div class="col-5 m-1">
+                                        <a href="https://www.purina.com/dogs/dog-breeds/golden-retriever" target="_blank" rel="noopener noreferrer"><img class="w-100 h-75" src="images/gr.jpg" alt=""></a>
+                                        <caption>Golden Retriever</caption>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-11 card bg-light m-3">
+                    <section class="card-body w-100">
+                        <img class="card-img h-50" src="images/fishes.jpg" alt="image of fishes">
+                        <h2 class="card-title text-info">Fish</h2>
+                        <p class="card-text">Fish are aquatic vertebrates that have gills and fins, breathe underwater.</p>
+                        <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modalwindow3">Read More</button>
+                    </section>
+                </div>
+
+                <div class="modal" id="modalwindow3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title">Fish Breeds</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                            </div>
+        
+                            <div class="modal-body">
+                                <p class="modal-text">Fish are aquatic animals that live in both freshwater and saltwater environments around the world. They come in a wide variety of shapes, sizes, and colors, making them fascinating to observe. With their graceful swimming and peaceful presence, fish are popular pets and an important part of many ecosystems.</p>
+                                <p class="modal-text">Want to know about different dog breeds? Please click on the picture below.</p>
+                                <div class="row">
+                                    <div class="col-5 m-1">
+                                        <a href="https://en.wikipedia.org/wiki/Koi" target="_blank" rel="noopener noreferrer"><img class="w-100 h-75" src="images/koi.jpg" alt=""></a>
+                                        <caption>Koi</caption>
+                                    </div>
+                                
+                                    <div class="col-5 m-1">
+                                        <a href="https://en.wikipedia.org/wiki/Fantail_(goldfish)" target="_blank" rel="noopener noreferrer"><img class="w-100 h-75" src="images/fantail.jpg" alt=""></a>
+                                        <caption>Fantail</caption>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
