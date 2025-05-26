@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project 2 draf 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="project2_draf2.css">
+  </head>
+  <body>
+
+  <section class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner text-center display-6 p-1">
+      <div class="carousel-item active"><p>Black Friday<span class="text-danger"> 40% off</span></p></div>
+      <div class="carousel-item"><p>Free<span class="text-danger"> Shipping</span> Within US</p></div>
+      <div class="carousel-item"><p>Student<span class="text-danger"> 20% off</span></p></div>
+    </div>
+  </section>
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">TechNest</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Shopping bag</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Wishlist</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="headimg">
+    <img src="images/headimg.jpg" alt="">
+    <p>Whether you're a gamer, creator, student, or professional, we've got the perfect computer to match your lifestyle and budget.
+    </p>
+    <a class="shoplink" href="#products">Shop Now</a>
+  </div>
+
+  <main id="products">
+    <section id="desktop" class="container py-5">
+      <h2 class="text-center mb-4">Desktop</h2>
+      <div class="row g-4">
+        <div class="col-md-3 col-sm-6">
+          <div class="card h-100 product-card shadow animate-fade-in">
+            <img src="images/desktop1.webp" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Dell Inspiron 27 All-in-One Desktop</h5>
+              <p class="card-text">$1,099.99</p>
+              <p class="card-text">Dell</p>
+              <button class="btn " data-bs-toggle="modal" data-bs-target="#desktop1Modal">Add to bag</button>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-3 col-sm-6">
+          <div class="card h-100 product-card shadow animate-fade-in">
+            <img src="images/desktop2.webp" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">HP ProOne 440 G9 All-in-One PC</h5>
+              <p class="card-text">$1,019.99</p>
+              <p class="card-text">HP</p>
+              <button class="btn " data-bs-toggle="modal" data-bs-target="#desktop2Modal">Add to bag</button>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-3 col-sm-6">
+          <div class="card h-100 product-card shadow animate-fade-in">
+            <img src="images/desktop3.webp" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">LG 27CN650N6A 27 FHD All-in-One</h5>
+              <p class="card-text">$1,349.99</p>
+              <p class="card-text">LG</p>
+              <button class="btn " data-bs-toggle="modal" data-bs-target="#desktop3Modal">Add to bag</button>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-3 col-sm-6">
+          <div class="card h-100 product-card shadow animate-fade-in">
+            <img src="images/desktop4.webp" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">ThinkCentre M90a Pro Gen 4 Intel 27 All-In-One</h5>
+              <p class="card-text">$959.99</p>
+              <p class="card-text">Lenovo</p>
+              <button class="btn " data-bs-toggle="modal" data-bs-target="#desktop4Modal">Add to bag</button>
+            </div>
+          </div>
+        </div>
+  
+        <div class="modal fade" id="desktop1Modal" tabindex="-1" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Added to your bag</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <div>
+                  <img class="desktopimg" src="images/desktop1.webp" alt="">
+                  <h5>Dell Inspiron 27 All-in-One Desktop</h5>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn " data-bs-dismiss="modal">See shopping bag</button>
+                  <button type="button" class="btn " data-bs-dismiss="modal">Continue shopping</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="desktop2Modal" tabindex="-1" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Added to your bag</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <div>
+                  <img class="desktopimg" src="images/desktop2.webp" alt="">
+                  <h5>HP ProOne 440 G9 All-in-One PC</h5>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn " data-bs-dismiss="modal">See shopping bag</button>
+                  <button type="button" class="btn " data-bs-dismiss="modal">Continue shopping</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="desktop3Modal" tabindex="-1" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Added to your bag</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <div>
+                  <img class="desktopimg" src="images/desktop3.webp" alt="">
+                  <h5>LG 27CN650N6A 27 FHD All-in-One</h5>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn " data-bs-dismiss="modal">See shopping bag</button>
+                  <button type="button" class="btn " data-bs-dismiss="modal">Continue shopping</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="desktop4Modal" tabindex="-1" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Added to your bag</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <div>
+                  <img class="desktopimg" src="images/desktop4.webp" alt="">
+                  <h5>ThinkCentre M90a Pro Gen 4 Intel 27 All-In-One</h5>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn " data-bs-dismiss="modal">See shopping bag</button>
+                  <button type="button" class="btn " data-bs-dismiss="modal">Continue shopping</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="laptop" class="container py-5">
+      <h2 class="text-center mb-4">Laptop</h2>
+      <div class="row g-4">
+        <div class="col-md-3 col-sm-6">
+          <div class="card h-100 product-card shadow animate-fade-in">
+            <img src="images/laptop1.webp" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">HP EliteBook Ultra 14 inch G1q Notebook AI PC</h5>
+              <p class="card-text">$1,599.99</p>
+              <p class="card-text">HP</p>
+              <button class="btn " data-bs-toggle="modal" data-bs-target="#laptop1Modal">Add to bag</button>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-3 col-sm-6">
+          <div class="card h-100 product-card shadow animate-fade-in">
+            <img src="images/laptop2.avif" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Inspiron 16 Plus Laptop</h5>
+              <p class="card-text">$799.99</p>
+              <p class="card-text">Dell</p>
+              <button class="btn " data-bs-toggle="modal" data-bs-target="#laptop2Modal">Add to bag</button>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-3 col-sm-6">
+          <div class="card h-100 product-card shadow animate-fade-in">
+            <img src="images/laptop3.webp" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Galaxy Book5 360</h5>
+              <p class="card-text">$1,149.99</p>
+              <p class="card-text">Samsung</p>
+              <button class="btn " data-bs-toggle="modal" data-bs-target="#laptop3Modal">Add to bag</button>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-3 col-sm-6">
+          <div class="card h-100 product-card shadow animate-fade-in">
+            <img src="images/laptop4.avif" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">ThinkPad L13 Yoga Gen 4 AMD</h5>
+              <p class="card-text">$899.99</p>
+              <p class="card-text">Lenovo</p>
+              <button class="btn " data-bs-toggle="modal" data-bs-target="#laptop4Modal">Add to bag</button>
+            </div>
+          </div>
+        </div>
+  
+        <div class="modal fade" id="laptop1Modal" tabindex="-1" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Added to your bag</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <div>
+                  <img class="laptopimg" src="images/laptop1.webp" alt="">
+                  <h5>HP EliteBook Ultra 14 inch G1q Notebook AI PC</h5>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn " data-bs-dismiss="modal">See shopping bag</button>
+                  <button type="button" class="btn " data-bs-dismiss="modal">Continue shopping</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="laptop2Modal" tabindex="-1" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Added to your bag</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <div>
+                  <img class="laptopimg" src="images/laptop2.avif" alt="">
+                  <h5>Inspiron 16 Plus Laptop</h5>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn " data-bs-dismiss="modal">See shopping bag</button>
+                  <button type="button" class="btn " data-bs-dismiss="modal">Continue shopping</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="laptop3Modal" tabindex="-1" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Added to your bag</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <div>
+                  <img class="laptopimg" src="images/laptop3.webp" alt="">
+                  <h5>Galaxy Book5 360</h5>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn " data-bs-dismiss="modal">See shopping bag</button>
+                  <button type="button" class="btn " data-bs-dismiss="modal">Continue shopping</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="laptop4Modal" tabindex="-1" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Added to your bag</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <div>
+                  <img class="laptopimg" src="images/laptop4.avif" alt="">
+                  <h5>ThinkPad L13 Yoga Gen 4 AMD</h5>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn " data-bs-dismiss="modal">See shopping bag</button>
+                  <button type="button" class="btn " data-bs-dismiss="modal">Continue shopping</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <form>
+        <div class="row g-3">
+          <div class="col-md-6">
+            <input type="text" class="form-control" placeholder="Full Name">
+          </div>
+          <div class="col-md-6">
+            <input type="email" class="form-control" placeholder="Email Address">
+          </div>
+          <div class="col-12">
+            <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+          </div>
+        </div>
+        <div class="text-center mt-3">
+          <button type="submit" class="btn">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Project 2 Sales Website</h5>
+          <p>@ Designed by Yi Li 2025.</p>
+          <p>Information used in this website is for educational purposes.</p>
+        </div>
+        <div class="col-md-6">
+          <h5>Follow Me</h5>
+          <div class="socialmedia">
+            <a href="https://www.facebook.com/QueensboroughCUNY/"> <img src="images/facebook.png" alt=""></a>
+            <a href="https://www.instagram.com/queensboroughcc_cuny/"> <img src="images/X Twitter.png" alt=""></a>
+            <a href="https://www.tiktok.com/@qcc_cuny"> <img src="images/tiktok.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  </body>
+</html>
